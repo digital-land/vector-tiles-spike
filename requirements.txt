@@ -28,3 +28,4 @@ six==1.16.0
 sniffio==1.2.0
 uvicorn==0.14.0
 datasette-tiles
+datasette-cors
