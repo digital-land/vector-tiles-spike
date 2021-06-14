@@ -1,0 +1,1 @@
+web: datasette serve lad-cons-area.mbtiles -m metadata.json --plugins-dir=plugins/ -h 0.0.0.0 -p $PORT --cors
