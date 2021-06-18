@@ -1,1 +1,1 @@
-web: datasette serve data.mbtiles -m metadata.json --plugins-dir=plugins/ -h 0.0.0.0 -p $PORT --cors
+web: curl -o data.mbtiles https://vector-tile-spike.s3.eu-west-2.amazonaws.com/data.mbtiles; datasette serve data.mbtiles -m metadata.json --plugins-dir=plugins/ -h 0.0.0.0 -p $PORT --cors
